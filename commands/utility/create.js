@@ -5,7 +5,7 @@ const axios = require('axios')
 // AAA JUST USE CONFIG.JSON
 // No, grow up
 require('dotenv').config()
-const pterodactyl_url = "https://panel.lighthouse-servers.com";
+const pterodactyl_url = process.env.PANEL_URL;
 const apiKey = process.env.API_KEY;
 
 
